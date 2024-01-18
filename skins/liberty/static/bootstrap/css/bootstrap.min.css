@@ -402,7 +402,6 @@ button:focus {
 
 button,input,select,textarea {
     margin: 0;
-    line-height: inherit
 }
 
 textarea {
