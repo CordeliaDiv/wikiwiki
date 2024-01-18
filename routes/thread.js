@@ -285,7 +285,7 @@ var content = `
 ${html.escape(topic)}
 ${
 getperm('delete_thread', ip_check(req))
-? '<span class=pull-right><a onclick="return confirm(\'삭제하시겠습니까?\');" href="/admin/thread/' + tnum + '/delete" class="btn btn-danger btn-sm">[ADMIN] 삭제</a></span>'
+? '<span class=pull-right><a onclick="return confirm(\'삭제하시겠습니까?\');" href="/admin/thread/' + tnum + '/delete" class="btn btn-danger btn-sm">[ADMIN] 스레드 삭제</a></span>'
 : ''
 }
 </h2>
