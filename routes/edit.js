@@ -83,7 +83,7 @@ router.all(/^\/edit\/(.*)/, async function editDocument(req, res, next) {
 			${generateCaptcha(req, req.session.captcha)}
 			
 			<div class="btns">
-				<button id="editBtn" class="btn btn-primary" style="width: 100px; float: right; padding: 3px 10.5px; font: 13.5px Arial">저장</button>
+				<button id="editBtn" class="btn btn-primary" style="width: 100px; float: right; padding: 3px 10.5px; font: 13.5px Arial; border-radius:0px">저장</button>
 			</div>
 
 <!--
