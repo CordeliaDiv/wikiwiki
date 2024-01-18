@@ -57,7 +57,7 @@ router.all(/^\/member\/login$/, async function loginScreen(req, res, next) {
 			
 			<div class="checkbox" style="display: inline-block;">
 				<label>
-					<input type=checkbox name=autologin>
+					<input type=checkbox name=autologin checked/>
 					<span>자동 로그인</span>
 				</label>
 			</div>
