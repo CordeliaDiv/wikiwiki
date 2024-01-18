@@ -2,6 +2,7 @@ router.get(/^\/License$/, async(req, res) => {
 	var licepage = `
 		<p>imitated-seed</p>
 		<p>(the seed v${version.major}.${version.minor}.${version.revision})</p>
+                <p>이 엔진과 스킨은 하늘위키에서 일부 포크되었습니다.</p>
 	`;
 	
 	if(hostconfig.replicate_theseed_license) {
