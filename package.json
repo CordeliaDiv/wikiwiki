@@ -30,6 +30,7 @@
   },
   {
   "main": "server.js",
+  ...
   }
   "repository": {
     "type": "git",
