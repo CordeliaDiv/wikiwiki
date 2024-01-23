@@ -31,7 +31,7 @@
   {
   "main": "server.js",
   ...
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gdl-888/imitated-seed-v2.git"
