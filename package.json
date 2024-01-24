@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "12"
+    "node": "20"
   },
   "name": "imitated-seed-v2",
   "version": "4.12.0",
